@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="welcome.php" method="post" style="border: 2px solid rgb(14, 3, 3) ">
+        <div class= "wrapper">
+            <div class= "title">
+                Registration form
+            </div>
+            <div class="form">
+                <div class="input_field">
+                    <label for="first Name">First Name:</label><br>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="last Name">Last Name:</label><br>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="password">Password:</label><br>
+                    <input type="password" placeholder="password" name="password" required="required">
+                </div>
+                <div class="input_field">
+                    <label for="confirm Password">Confirm Paswword:</label><br>
+                    <input type="password" placeholder="confirm password" name="confirm password" required="required">
+                </div>
+                <div class="input_field">
+                    <label for="Gender">Gender:</label><br>
+                        <select>
+                            <option value="">Select</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                </div>
+                <div class="input_field">
+                    <label for="Email Address">Email Address:</label><br>
+                    <input type="text" placeholder="email address" name="email address" required="email address">
+                </div>
+                <div class="input_field">
+                    <label for="Phone Number">Phone Number:</label><br>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label for="Address">Address:</label><br>
+                   <textarea class="textarea"></textarea>
+                </div>
+                <div class="input_field">
+                    <label for="postal code">Postal code:</label><br>
+                    <input type="text" class="input">
+                </div>
+                
+                <div class="inputfield"><br><br>
+                    <input type="submit" value="Register" class="btn"><br>
+                </div>
+            </div>
+        </div>
+    </form>
+    </body>
+</html>

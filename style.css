@@ -99,3 +99,40 @@ body {
 .wrapper.form .input_field .select:focus{
     border: 1px solid #fec107;
 }
+
+/*assignment*/
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: indigo;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  #footer {
+    clear: both;			
+  }
+
+  h1{
+      font-size: 16px;
+  }
+
+  p{
+      padding: 5px;
+  }
+
+  #images{
+      float: left;
+  }
+

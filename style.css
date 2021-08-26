@@ -118,21 +118,22 @@ a:link {
   
   /* selected link */
   a:active {
-    color: blue;
-  }
-  #footer {
-    clear: both;			
-  }
-
-  h1{
-      font-size: 16px;
-  }
-
-  p{
-      padding: 5px;
-  }
-
-  #images{
-      float: left;
-  }
-
+      color: blue;
+    }
+    
+      h1{
+          font-size: 16px;
+      }
+      
+      p{
+          padding: 5px;
+        }
+        
+        #images{
+            float: left;
+        }
+        
+        #footer {
+          clear: both;			
+        }
+        
